@@ -30,6 +30,7 @@ namespace Ejercicio1
         private void InitializeComponent()
         {
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -42,11 +43,20 @@ namespace Ejercicio1
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(316, 207);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 89);
+            this.checkedListBox1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.checkBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -58,6 +68,7 @@ namespace Ejercicio1
         #endregion
 
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
 
